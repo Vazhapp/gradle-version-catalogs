@@ -1,0 +1,9 @@
+[versions]
+kotlin = "1.7.0"
+hilt = "2.42"
+retrofit = "2.9.0"
+okhttp = "4.10.0"
+room = "2.4.3"
+kotlinxCoroutines = "1.6.3"
+glide = "4.13.2"
+gson = "2.9.1"
