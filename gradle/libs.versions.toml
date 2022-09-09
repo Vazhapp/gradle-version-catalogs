@@ -7,3 +7,18 @@ room = "2.4.3"
 kotlinxCoroutines = "1.6.3"
 glide = "4.13.2"
 gson = "2.9.1"
+
+[libraries]
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+room-ktx = { group = "androidx.room", name = "room-ktx" , version.ref = "room" }
+room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
