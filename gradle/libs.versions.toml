@@ -10,6 +10,7 @@ gson = "2.9.1"
 androidxEspresso = "3.4.0"
 androidxTestExt = "1.1.3"
 junit4 = "4.13.2"
+androidGradlePlugin = "7.4.2"
 
 [libraries]
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
@@ -29,15 +30,15 @@ androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espres
 androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExt" }
 junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
 
-[bundle]
+[bundles]
 retrofit = ["retrofit", "retrofit-core"]
 glide = ["glide", "glide-compiler"]
 room = ["room-ktx", "room-paging", "room-runtime"]
 hilt = ["hilt-android", "hilt-compiler"]
 
 [plugins]
-android-application = { id = "com.android.application", version.ref = "gradleplugin" }
-android-library = { id = "com.android.library", version.ref = "gradleplugin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
