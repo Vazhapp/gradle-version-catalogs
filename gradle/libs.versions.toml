@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.7.0"
+kotlin = "1.8.0"
 hilt = "2.42"
 retrofit = "2.9.0"
 okhttp = "4.10.0"
@@ -7,6 +7,9 @@ room = "2.4.3"
 kotlinxCoroutines = "1.6.3"
 glide = "4.13.2"
 gson = "2.9.1"
+androidxEspresso = "3.4.0"
+androidxTestExt = "1.1.3"
+junit4 = "4.13.2"
 
 [libraries]
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
@@ -22,6 +25,9 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
+androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExt" }
+junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
 
 [bundle]
 retrofit = ["retrofit", "retrofit-core"]
