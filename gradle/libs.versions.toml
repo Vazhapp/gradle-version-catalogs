@@ -14,7 +14,6 @@ androidGradlePlugin = "7.4.2"
 
 [libraries]
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
-retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
@@ -31,10 +30,7 @@ androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref =
 junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
 
 [bundles]
-retrofit = ["retrofit", "retrofit-core"]
-glide = ["glide", "glide-compiler"]
 room = ["room-ktx", "room-paging", "room-runtime"]
-hilt = ["hilt-android", "hilt-compiler"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
